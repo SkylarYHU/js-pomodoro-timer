@@ -14,3 +14,6 @@ Click [here](https://skylaryhu.github.io/js-pomodoro-timer/) to view the demo
 
 ## Screenshot
 ![Screenshot](Screenshots/screenshot.png)
+
+## Mindmap
+![Mindmap](mindmap.png)
