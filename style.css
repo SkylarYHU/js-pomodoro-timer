@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Lexend", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-color: #3d3c3c;
+  color: #333;
+}
+
+h1{
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #D5D5D5;
+}
+
+.container{
+  text-align: center;
+  max-width: 700px;
+  min-height: 300px;
+  padding: 30px;
+  background-color: #2A2A2A;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  color: #fff;
+}
+
+.timer{
+  font-size: 75px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.controls, .mode-buttons{
+  margin-top: 8px;
+}
+
+button{
+  padding: 10px 15px;
+  width: 200px;
+  font-size: 18px;
+  font-family: inherit;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.controls button{
+  width: 100%;
+  margin: 10px 0;
+}
+
+#start-pause-btn{
+  background-color: #28a745;
+  color: #fff;
+}
+
+#start-pause-btn:hover{
+  background-color: #1f8d38;
+}
+
+#start-pause-btn:active{
+  background-color: #196e2c;
+}
+
+#reset-btn{
+  background-color: #dc3545;
+  color: #fff;
+}
+
+#reset-btn:hover{
+  background-color: #b92c3a;
+}
+
+#reset-btn:active{
+  background-color: #99202c;
+}
+
+.mode-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.mode-buttons button{
+  border: none;
+  color: #444;
+  background-color: #D5D5D5;
+}
+
+button:active{
+  background-color: #bebdbd;
+}
